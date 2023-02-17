@@ -1,0 +1,156 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'DynaPuff', cursive;
+    background-color: #1b1b25;
+
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.d-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.d-flex-around{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header {
+    color: black;
+    font-weight: 500px;
+    font-size: 44px;
+    background-color: rgb(75, 193, 193);
+    padding: 35px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    margin-right: 30px;
+}
+
+.logo2 {
+    background: transparent;
+}
+
+main {
+color: white;
+}
+
+.searching-block{
+    
+}
+
+.searchField{
+    padding: 10px 2px;
+    width: 50%;
+    border-radius: 20px;
+}
+.type{
+    padding: 10px 2px;
+    margin-left: 20px;
+    height: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+#searchButton{
+    padding: 10px 2px;
+    height: 100%;
+    border-radius: 20px;
+    border: none;
+
+}
+.check{
+    width: 100%;
+    border-radius: 20px;
+    background: rgb(58,136,180);
+    background: linear-gradient(90deg, rgba(58,136,180,1) 0%, rgba(29,117,253,1) 50%, rgba(75,193,193,1) 90%);
+}
+
+.showFilm{
+    padding: 20px;
+    
+}
+.d-wrap{
+    flex-wrap: wrap;
+}
+.card{
+ width: 300px;
+ height: 450px;
+ background-color: rgb(15, 82, 90);   
+pad: 20px 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+transition: all .4s ease;
+margin-bottom: 30px ;
+}
+.card:hover{
+    border: 2px solid lightseagreen;
+    scale:1.05;
+}
+.title{
+    margin-bottom: 10px;
+    font-size: 24px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.year{
+    font-size: 20px;
+}
+.img{
+    margin-top: 10px;
+}
+.slick-dots{
+    display: none!important;
+}
+.img img{
+    width: 250px;
+    height: 350px;
+}
+
+.paginationBtn{
+    border: none;
+    margin: 3px;
+    padding: 5px;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+
+
+
+
+  
+  .name {
+    -webkit-mask-image: linear-gradient(-75deg, rgba(203, 58, 58, 0.6) 30%, rgb(186, 27, 27) 50%, rgba(151, 22, 22, 0.6) 70%);
+    -webkit-mask-size: 200%;
+    animation: wave 2s infinite;
+  }
+  
+  @-webkit-keyframes wave {
+    from {
+      -webkit-mask-position: 150%;
+    }
+    to {
+      -webkit-mask-position: -50%;
+    }
+  }
